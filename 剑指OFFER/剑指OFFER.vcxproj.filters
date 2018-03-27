@@ -177,6 +177,9 @@
     <ClCompile Include="demo53_正则表达式的匹配.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="demo54_复杂链表的复制.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="逆序打印一个链表的各个节点.txt">

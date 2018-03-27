@@ -128,6 +128,7 @@
     <ClCompile Include="demo51_矩阵中的路径.cpp" />
     <ClCompile Include="demo52_机器人的运动范围.cpp" />
     <ClCompile Include="demo53_正则表达式的匹配.cpp" />
+    <ClCompile Include="demo54_复杂链表的复制.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="逆序打印一个链表的各个节点.txt" />

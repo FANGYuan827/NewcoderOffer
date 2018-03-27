@@ -93,7 +93,7 @@ match(str+1,pattern) --->>>匹配上了（字符和'.'匹配）   为什么str+=
 match(str,pattern+2) --->>>没有匹配上（*表示前面的字符出现0次）
 */
 
-void main()
+void main_demo53()
 {
 	Solution_demo53 s1;
 	char *str = "aaa";
