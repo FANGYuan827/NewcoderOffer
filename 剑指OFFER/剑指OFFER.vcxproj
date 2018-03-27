@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{57793E8A-F713-4752-BE6A-22388F31A8F1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>剑指OFFER</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="demo02_空格替换.cpp" />
+    <ClCompile Include="demo03_判断1的个数.cpp" />
+    <ClCompile Include="demo04_计算1加到n.cpp" />
+    <ClCompile Include="demo05_不用加减乘除求两数和.cpp" />
+    <ClCompile Include="demo06_斐波那契数列.cpp" />
+    <ClCompile Include="demo07_链表中倒数第k个节点.cpp" />
+    <ClCompile Include="demo08_用两个stack实现queue的功能.cpp" />
+    <ClCompile Include="demo09_找出数组中出现次数超过长度一半的数字.cpp" />
+    <ClCompile Include="demo10找出n个整数中最小的k个数.cpp" />
+    <ClCompile Include="demo11_找出整形数组中只出现一次的数字.cpp" />
+    <ClCompile Include="demo11_整型数组中找数字.cpp" />
+    <ClCompile Include="demo12_求double类型数的int类型次方.cpp" />
+    <ClCompile Include="demo13_旋转数组的最小数字.cpp" />
+    <ClCompile Include="demo14_调整数组顺序使奇数位于偶数前面.cpp" />
+    <ClCompile Include="demo15_数组中重复的数字.cpp" />
+    <ClCompile Include="demo16_反转链表.cpp" />
+    <ClCompile Include="demo17_合并两个排序的链表.cpp" />
+    <ClCompile Include="demo18_二维数组中的查找.cpp" />
+    <ClCompile Include="demo19_第一个只出现一次的字符_未完成.cpp" />
+    <ClCompile Include="demo20_ 丑数.cpp" />
+    <ClCompile Include="demo20_丑数_遍历的方法_不好.cpp" />
+    <ClCompile Include="demo21_跳台阶.cpp" />
+    <ClCompile Include="demo22_全排列.cpp" />
+    <ClCompile Include="demo23_重建二叉树.cpp" />
+    <ClCompile Include="demo24_二叉树的深度.cpp" />
+    <ClCompile Include="demo25_从上往下打印二叉树.cpp" />
+    <ClCompile Include="demo26_把二叉树打印成多行.cpp" />
+    <ClCompile Include="demo27_变态跳台阶.cpp" />
+    <ClCompile Include="demo28_矩形覆盖.cpp" />
+    <ClCompile Include="demo29_二叉树的镜像.cpp" />
+    <ClCompile Include="demo30_构建乘积数组.cpp" />
+    <ClCompile Include="demo31_连续子数组的最大和.cpp" />
+    <ClCompile Include="demo32_平衡二叉树的判断.cpp" />
+    <ClCompile Include="demo33_整数中1出现的次数(从1到n整数中1出现的次数).cpp" />
+    <ClCompile Include="demo34_两个链表的第一个公共结点.cpp" />
+    <ClCompile Include="demo35_包含min函数的栈.cpp" />
+    <ClCompile Include="demo36_字符流中第一个不重复的字符.cpp" />
+    <ClCompile Include="demo37_对称的二叉树.cpp" />
+    <ClCompile Include="demo38_第一个只出现一次的字符.cpp" />
+    <ClCompile Include="demo39_栈的压入、弹出序列.cpp" />
+    <ClCompile Include="demo40_数字在排序数组中出现的次数.cpp" />
+    <ClCompile Include="demo41_和为S的两个数字.cpp" />
+    <ClCompile Include="demo42_和为S的正数序列.cpp" />
+    <ClCompile Include="demo43_左旋转字符串.cpp" />
+    <ClCompile Include="demo44_翻转单词顺序列.cpp" />
+    <ClCompile Include="demo45_扑克牌顺子.cpp" />
+    <ClCompile Include="demo46_孩子们的游戏(圆圈中最后剩下的数).cpp" />
+    <ClCompile Include="demo47_把字符串转换成整数.cpp" />
+    <ClCompile Include="demo48_表示数值的字符串.cpp" />
+    <ClCompile Include="demo49_数组中的逆序对.cpp" />
+    <ClCompile Include="demo50_把数组排成最小的数.cpp" />
+    <ClCompile Include="demo51_矩阵中的路径.cpp" />
+    <ClCompile Include="demo52_机器人的运动范围.cpp" />
+    <ClCompile Include="demo53_正则表达式的匹配.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="逆序打印一个链表的各个节点.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

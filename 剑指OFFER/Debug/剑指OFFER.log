@@ -1,0 +1,79 @@
+﻿Build started 2018/3/16 20:09:51.
+     1>Project "C:\Users\FY\Documents\Visual Studio 2010\Projects\剑指OFFER\剑指OFFER\剑指OFFER.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\剑指OFFER.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "demo53_正则表达式的匹配.cpp"
+         demo53_正则表达式的匹配.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\FY\Documents\Visual Studio 2010\Projects\剑指OFFER\Debug\剑指OFFER.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\剑指OFFER.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\FY\Documents\Visual Studio 2010\Projects\剑指OFFER\Debug\剑指OFFER.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\FY\Documents\Visual Studio 2010\Projects\剑指OFFER\Debug\剑指OFFER.lib" /MACHINE:X86 "Debug\剑指OFFER.exe.embed.manifest.res"
+         "Debug\demo02_空格替换.obj"
+         "Debug\demo03_判断1的个数.obj"
+         "Debug\demo04_计算1加到n.obj"
+         "Debug\demo05_不用加减乘除求两数和.obj"
+         "Debug\demo06_斐波那契数列.obj"
+         "Debug\demo07_链表中倒数第k个节点.obj"
+         "Debug\demo08_用两个stack实现queue的功能.obj"
+         "Debug\demo09_找出数组中出现次数超过长度一半的数字.obj"
+         "Debug\demo10找出n个整数中最小的k个数.obj"
+         "Debug\demo11_找出整形数组中只出现一次的数字.obj"
+         "Debug\demo11_整型数组中找数字.obj"
+         "Debug\demo12_求double类型数的int类型次方.obj"
+         "Debug\demo13_旋转数组的最小数字.obj"
+         "Debug\demo14_调整数组顺序使奇数位于偶数前面.obj"
+         "Debug\demo15_数组中重复的数字.obj"
+         "Debug\demo16_反转链表.obj"
+         "Debug\demo17_合并两个排序的链表.obj"
+         "Debug\demo18_二维数组中的查找.obj"
+         "Debug\demo19_第一个只出现一次的字符_未完成.obj"
+         "Debug\demo20_ 丑数.obj"
+         "Debug\demo20_丑数_遍历的方法_不好.obj"
+         "Debug\demo21_跳台阶.obj"
+         "Debug\demo22_全排列.obj"
+         "Debug\demo23_重建二叉树.obj"
+         "Debug\demo24_二叉树的深度.obj"
+         "Debug\demo25_从上往下打印二叉树.obj"
+         "Debug\demo26_把二叉树打印成多行.obj"
+         "Debug\demo27_变态跳台阶.obj"
+         "Debug\demo28_矩形覆盖.obj"
+         "Debug\demo29_二叉树的镜像.obj"
+         "Debug\demo30_构建乘积数组.obj"
+         "Debug\demo31_连续子数组的最大和.obj"
+         "Debug\demo32_平衡二叉树的判断.obj"
+         "Debug\demo33_整数中1出现的次数(从1到n整数中1出现的次数).obj"
+         "Debug\demo34_两个链表的第一个公共结点.obj"
+         "Debug\demo35_包含min函数的栈.obj"
+         "Debug\demo36_字符流中第一个不重复的字符.obj"
+         "Debug\demo37_对称的二叉树.obj"
+         "Debug\demo38_第一个只出现一次的字符.obj"
+         "Debug\demo39_栈的压入、弹出序列.obj"
+         "Debug\demo40_数字在排序数组中出现的次数.obj"
+         "Debug\demo41_和为S的两个数字.obj"
+         "Debug\demo42_和为S的正数序列.obj"
+         "Debug\demo43_左旋转字符串.obj"
+         "Debug\demo44_翻转单词顺序列.obj"
+         "Debug\demo45_扑克牌顺子.obj"
+         "Debug\demo46_孩子们的游戏(圆圈中最后剩下的数).obj"
+         "Debug\demo47_把字符串转换成整数.obj"
+         "Debug\demo48_表示数值的字符串.obj"
+         "Debug\demo49_数组中的逆序对.obj"
+         "Debug\demo50_把数组排成最小的数.obj"
+         "Debug\demo51_矩阵中的路径.obj"
+         "Debug\demo52_机器人的运动范围.obj"
+         "Debug\demo53_正则表达式的匹配.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\剑指OFFER.exe.embed.manifest" /manifest "Debug\剑指OFFER.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         剑指OFFER.vcxproj -> C:\Users\FY\Documents\Visual Studio 2010\Projects\剑指OFFER\Debug\剑指OFFER.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\剑指OFFER.unsuccessfulbuild".
+         Touching "Debug\剑指OFFER.lastbuildstate".
+     1>Done Building Project "C:\Users\FY\Documents\Visual Studio 2010\Projects\剑指OFFER\剑指OFFER\剑指OFFER.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.21

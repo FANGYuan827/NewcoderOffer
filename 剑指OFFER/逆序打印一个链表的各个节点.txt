@@ -1,0 +1,74 @@
+/*输入一个链表，从尾到头打印链表每个节点的值*/
+/*2017年11月28日20:12:28*/
+/**
+*  struct ListNode {
+*        int val;
+*        struct ListNode *next;
+*        ListNode(int x) :
+*              val(x), next(NULL) {
+*        }
+*  };
+*/
+class Solution {
+public:
+    vector<int> printListFromTailToHead(ListNode* head) {
+        int i = 0;
+        vector<int>a,b;
+        if(head == NULL)
+        {
+            return a;
+        }
+        ListNode *ptmp1 = NULL;
+        ptmp1 = head;
+        while(ptmp1!=NULL)
+        {
+            a.push_back(ptmp1->val);
+            ptmp1 = ptmp1->next;
+        }
+        int length = a.size();
+        b = a;
+        for(i=0;i<length;i++)
+        {
+            b[i] = a[length-1-i];
+        }
+
+        return b;
+    }
+};
+
+/*
+ 网上别人的思路：
+ 再利用一个stack容器，利用stack先进后出的特点，先遍历链表 将链表节点上的数据域都依次入栈 结束之后 再依次将stack中的元素都出栈；
+ 核心代码如下：
+ vector<int>v1;
+ stack<int>s1;
+ ListNode* p=head;
+ while(p!=NULL)
+ {
+     s1.pusk(p->val);
+	 p = p->next;
+ }
+ int length = s1.size();
+ for(int i = 0;i<length;i++)
+ {
+     v1.push_back(s1.top());
+	 s1.pop();
+ }
+ return v1;
+*/
+
+利用方向迭代器：
+class Solution {
+public:
+    vector<int> printListFromTailToHead(struct ListNode* head) {
+        vector<int> v;
+                        
+        ListNode *p = head;
+        while (p != nullptr) {
+           v.push_back(p->val);
+           p = p->next;
+        }
+        //反向迭代器创建临时对象
+        return vector<int>(v.rbegin(), v.rend());
+    }
+};
