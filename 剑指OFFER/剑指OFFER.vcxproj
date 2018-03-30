@@ -130,6 +130,7 @@
     <ClCompile Include="demo53_正则表达式的匹配.cpp" />
     <ClCompile Include="demo54_复杂链表的复制.cpp" />
     <ClCompile Include="demo55_字符串的全排列.cpp" />
+    <ClCompile Include="demo56_链表中环的入口节点.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="逆序打印一个链表的各个节点.txt" />
