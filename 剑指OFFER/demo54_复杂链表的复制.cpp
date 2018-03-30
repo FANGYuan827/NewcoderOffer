@@ -73,7 +73,7 @@ public:
 };
 
 
-void main()
+void main_demo54()
 {
 	Solution_demo54 s1;
 	RandomListNode r1(1),r2(2),r3(3),r4(4);
@@ -84,7 +84,7 @@ void main()
 	r3.next = &r4;
 	r3.random = &r1;
 	r4.next = NULL;
-	r4.random = &r4;
+	r4.random = &r1;
 	RandomListNode *res = NULL;
 	res= s1.Clone(&r1);
     while(res!=NULL)

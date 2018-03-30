@@ -96,7 +96,7 @@
     <ClCompile Include="demo20_ 丑数.cpp" />
     <ClCompile Include="demo20_丑数_遍历的方法_不好.cpp" />
     <ClCompile Include="demo21_跳台阶.cpp" />
-    <ClCompile Include="demo22_全排列.cpp" />
+    <ClCompile Include="demo22_字符串的排列.cpp" />
     <ClCompile Include="demo23_重建二叉树.cpp" />
     <ClCompile Include="demo24_二叉树的深度.cpp" />
     <ClCompile Include="demo25_从上往下打印二叉树.cpp" />
@@ -129,6 +129,7 @@
     <ClCompile Include="demo52_机器人的运动范围.cpp" />
     <ClCompile Include="demo53_正则表达式的匹配.cpp" />
     <ClCompile Include="demo54_复杂链表的复制.cpp" />
+    <ClCompile Include="demo55_字符串的全排列.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="逆序打印一个链表的各个节点.txt" />

@@ -81,9 +81,6 @@
     <ClCompile Include="demo21_跳台阶.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="demo22_全排列.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="demo23_重建二叉树.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -178,6 +175,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="demo54_复杂链表的复制.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo22_字符串的排列.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo55_字符串的全排列.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
