@@ -45,7 +45,7 @@ public:
 			v_res.push_back(str);
 			return v_res;
 		}
-		sort(v_tmp.begin(),v_tmp.end());     //°´×ÖµäĞòÅÅĞò
+		//sort(v_tmp.begin(),v_tmp.end());     //°´×ÖµäĞòÅÅĞò
 		Permutation_1(v_res,v_tmp,0,v_tmp.size()-1);
 		sort(v_res.begin(),v_res.end());
 		return v_res;
@@ -91,7 +91,7 @@ public:
 
 void main()
 {
-	string str = "abc";
+	string str = "aabb";
 	vector<string>v_res;
 	Solution_demo56 s1;
 	v_res = s1.Permutation(str);

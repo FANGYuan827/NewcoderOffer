@@ -1,4 +1,4 @@
-﻿Build started 2018/3/30 9:06:06.
+﻿Build started 2018/3/30 9:12:24.
      1>Project "C:\Users\FY\Documents\Visual Studio 2010\Projects\剑指OFFER\剑指OFFER\剑指OFFER.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\剑指OFFER.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -79,4 +79,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.77
+Time Elapsed 00:00:01.76
