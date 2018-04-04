@@ -102,7 +102,7 @@ private:
 };
 
 
-void main()
+void main_demo56()
 {
 	Solution_demo56 s1;
 	ListNode l1(1),l2(2),l3(3),l4(4),l5(5),l6(6);

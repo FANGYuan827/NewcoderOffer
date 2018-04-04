@@ -131,6 +131,9 @@
     <ClCompile Include="demo54_复杂链表的复制.cpp" />
     <ClCompile Include="demo55_字符串的全排列.cpp" />
     <ClCompile Include="demo56_链表中环的入口节点.cpp" />
+    <ClCompile Include="demo57_删除链表中重复的结点.cpp" />
+    <ClCompile Include="demo58_滑动窗口的最大值.cpp" />
+    <ClCompile Include="demo59_顺时针打印矩阵.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="逆序打印一个链表的各个节点.txt" />
