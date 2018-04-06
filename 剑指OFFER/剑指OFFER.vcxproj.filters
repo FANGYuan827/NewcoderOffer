@@ -195,6 +195,12 @@
     <ClCompile Include="demo59_顺时针打印矩阵.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="demo60_树的子结构.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demo61_二叉树的下一个结点.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="逆序打印一个链表的各个节点.txt">

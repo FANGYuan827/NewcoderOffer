@@ -64,7 +64,7 @@ public:
     }
 };
 
-void main()
+void main_demo59()
 {
 	Solution_demo59 s1;
 	vector<vector<int> >input;
