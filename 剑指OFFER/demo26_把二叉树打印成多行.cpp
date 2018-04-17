@@ -45,7 +45,6 @@ public:
 		while(q_tmp.size()!=0)
 		{
 			int count = 0 ,nextCount = q_tmp.size();
-			//TreeNode *top = q_tmp.front();
 			while(count++<nextCount)
 			{
 				//i++;

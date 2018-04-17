@@ -72,7 +72,7 @@ public:
 };
 
 
-void main()
+void main_demo61()
 {
 	Solution_demo60 s1;
 	TreeLinkNode t1(1),t2(2),t3(3),t4(4),t5(5),t6(6),t7(7),t8(8);

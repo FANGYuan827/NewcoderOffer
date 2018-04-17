@@ -1,10 +1,14 @@
-﻿Build started 2018/4/6 22:14:45.
+﻿Build started 2018/4/17 21:16:23.
      1>Project "C:\Users\FY\Documents\Visual Studio 2010\Projects\剑指OFFER\剑指OFFER\剑指OFFER.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\剑指OFFER.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\剑指OFFER.unsuccessfulbuild".
        ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "demo61_二叉树的下一个结点.cpp"
-         demo61_二叉树的下一个结点.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "demo68_序列化二叉树.cpp"
+         demo68_序列化二叉树.cpp
+     1>c:\users\fy\documents\visual studio 2010\projects\剑指offer\剑指offer\demo68_序列化二叉树.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\fy\documents\visual studio 2010\projects\剑指offer\剑指offer\demo68_序列化二叉树.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -71,6 +75,13 @@
          "Debug\demo59_顺时针打印矩阵.obj"
          "Debug\demo60_树的子结构.obj"
          "Debug\demo61_二叉树的下一个结点.obj"
+         "Debug\demo62_二叉搜索树与双向链表.obj"
+         "Debug\demo63_二叉搜索树的后序遍历序列.obj"
+         "Debug\demo64_二叉树中和为某一值的路径.obj"
+         "Debug\demo65_按之字形顺序打印二叉树.obj"
+         "Debug\demo66_二叉搜索树的第k个结点.obj"
+         "Debug\demo67_数据流中的中位数.obj"
+         "Debug\demo68_序列化二叉树.obj"
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\剑指OFFER.exe.embed.manifest" /manifest "Debug\剑指OFFER.exe.intermediate.manifest"
          All outputs are up-to-date.
@@ -84,4 +95,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.96
+Time Elapsed 00:00:02.18

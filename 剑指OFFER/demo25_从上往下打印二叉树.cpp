@@ -32,7 +32,6 @@ public:
 		{
 			return v_tmp;
 		}
-		//int count = 0,nextCount = 1;
 		list<TreeNode *> l_tmp;
 		l_tmp.push_back(root);
 		while(l_tmp.size()!=0)
